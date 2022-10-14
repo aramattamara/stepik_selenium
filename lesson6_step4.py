@@ -7,13 +7,13 @@ link = "http://suninjuly.github.io/find_link_text"
 
 #link = "http://suninjuly.github.io/simple_form_find_task.html"
 
-number = print(math.ceil(math.pow(math.pi, math.e)*10000))
+number = (str(math.ceil(math.pow(math.pi, math.e)*10000)))
 
 try:
     browser = webdriver.Chrome()
     browser.get(link)
 
-    link = browser.find_element(By.LINK_TEXT, "224592")
+    link = browser.find_element(By.LINK_TEXT, number)
     link.click()
 
     input1 = browser.find_element(By.TAG_NAME, "input")
