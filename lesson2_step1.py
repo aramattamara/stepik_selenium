@@ -4,7 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 
-link = "http://suninjuly.github.io/selects1.html"
+link = "http://suninjuly.github.io/selects2.html"
+#link = "http://suninjuly.github.io/selects1.html"
 
 browser = webdriver.Chrome()
 
