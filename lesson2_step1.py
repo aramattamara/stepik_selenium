@@ -24,7 +24,7 @@ try:
     select = Select(browser.find_element(By.ID, "dropdown"))
     select.select_by_value(summary)
 
-    button = browser.find_element(By.CSS_SELECTOR, "button.btn")
+    button = browser.find_element(By.CLASS_NAME, "btn")
     button.click()
 
 finally:
