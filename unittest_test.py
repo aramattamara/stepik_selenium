@@ -28,7 +28,7 @@ class TestAbs(unittest.TestCase):
         time.sleep(1)
         welcome_text_elt = self.browser.find_element(By.TAG_NAME, "h1")
         welcome_text = welcome_text_elt.text
-        self.assertEquals("Congratulations! You have successfully registered!", welcome_text, expected_message)
+        self.assertEqual("Congratulations! You have successfully registered!", welcome_text, expected_message)
 
 
 if __name__ == "__main__":
