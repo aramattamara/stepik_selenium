@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import time
 import math
 
-
+#function that finds value of expression with setup x
 def calc(x):
     return str(math.log(abs(12 * math.sin(int(x)))))
 
